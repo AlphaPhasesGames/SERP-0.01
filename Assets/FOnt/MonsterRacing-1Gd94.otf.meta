@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a93dcdfbc1f45d34188910a4b0bf738c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Monster Racing
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f9e5cd333bd606a42a6d604e350088ee, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
