@@ -1,8 +1,11 @@
 using UnityEngine;
+using TMPro;
 
 public class NewCarController : MonoBehaviour
 {
     public Rigidbody sphereRB;
+
+    public TextMeshProUGUI speed;
 
     public float fwdSpeed;
     public float revSpeed;
@@ -44,7 +47,7 @@ public class NewCarController : MonoBehaviour
         moveInput = Input.GetAxisRaw("Vertical");
         turnInput = Input.GetAxisRaw("Horizontal");
 
-
+        speed.text = fwdSpeed.ToString("0");
         if (Input.GetKey(KeyCode.W))
         {
             fwdSpeed += acceleration;
